@@ -24,7 +24,7 @@ function Access() {
         <div className= "bande-son"> <audio src={music}
          controls></audio>
         </div>
-         <p className= "indice">Le mot de passe correspondant résume la video en un seul mot !!</p>
+         <p className= "indice">Le mot de passe correspond au résumé la bande sonore en un seul mot !!</p>
 
             <form onSubmit={validation}>
                 
