@@ -1,31 +1,53 @@
-.carousel .overlay {
-    width: 80%;
+  .overlay_quote{
+    width: 35vh;
     position: absolute;
-    top:50%;
+    top:61%;
     transform: translateY(-50);
-    left:10%;
-    padding: 0.4rem 1.5rem;
+    padding: 1rem 1.1rem;
     text-align: left;
     background: rgba(0, 0, 0.6);
     color: #FFFF;
+    font-size:60%;
+}
+
+.overlay_name {
+    margin-top: auto;
+}
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.6%;
 }
 
 .carousel .thumbs {
     display: flex;
     justify-content: center;
-    margin: 0;
-    padding:10px;
 }
 
 .carousel .thumb {
-    margin: 0 5px;
+    margin: 1px;
     cursor: pointer;
-
 }
 
 .carousel .overlay_name {
-  margin: 0.8em 0 1rem 0;
+  margin: 0.8em 0 5rem ;
 
+}
+.picture {
+    max-width: 35vh;
+    margin: 3%;
+}
+
+.photo {
+    width: 186.5vh;
+    height: 60vh;
+}
+
+.Title {
+    margin-top: 1%;
+    font-size: 160%;
 }
 
 @media screen and (max-width:600px) {
