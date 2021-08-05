@@ -1,0 +1,22 @@
+.Container {
+    width: 100vh;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.NaziCard {
+    height: 50%;
+    display: flex;
+    margin-right: 20px;
+}
+
+.NaziImg{
+    height: 100%;
+}
+
+.NaziBtn {
+    display: flex;
+    width: 50px;
+    align-self:center;
+}
