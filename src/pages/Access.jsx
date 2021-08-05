@@ -13,7 +13,6 @@ function Access() {
         let history = useHistory();
         const validation = () => { 
             if(password == mypassword){
-
                 history.push("/");
             }else{
                 history.push("/refused");
@@ -22,26 +21,23 @@ function Access() {
 
 	return (
 
+
         <div className= "secretpage">
         <div className= "bande-son"> <audio src={music}
          controls></audio>
         </div>
-            <form onSubmit={validation}>
 
-                <div className="form">
-                <label>Password:</label>
-                </div>
-                <div className= "mdp">
+        
+            <form onSubmit={validation}>
+                <label className="password">Password:</label>
                 <input type="password" onChange={e => setPassword(e.target.value)}/>
                 {/* <label>Password Again:</label> */}
                 {/* <input type="password" onChange={e => setPasswordAgain(e.target.value)}/> */}
-                </div>
-                <div className= "checklist">
-                <PasswordChecklist
+                <PasswordChecklist className="checklist"
+
                     rules={["minLength","specialChar","number","capital","match"]}
                     minLength={8}
                     value={password}
-                    
                     // valueAgain={passwordAgain}
                     messages={{
                         minLength: "Mauvaise longeur ",
@@ -55,11 +51,11 @@ function Access() {
                     </div>    
                     <div className= "submit">
                     <input type="submit" className="connection"/>
+
                     </div>
                     </form>
                     </div>
-                    
-                   
+             
 	);
     
 }

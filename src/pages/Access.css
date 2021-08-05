@@ -1,3 +1,4 @@
+
 *{
     background-color: var(--main-color);
 }
@@ -22,3 +23,17 @@ ul{
 .connection{
     background-color: deeppink;
 }
+
+/* * {
+    background-image: url(../Image/obeir.jpg);
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+} */
+
+
+
+ul{
+    margin-left: 500px;
+}
+
