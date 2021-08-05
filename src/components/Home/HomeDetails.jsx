@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './HomeDetails.css';
 
 function HomeDetails() {
     return (
@@ -8,4 +9,4 @@ function HomeDetails() {
     )
 }
 
-export default HomeDetails
+export default HomeDetails;
