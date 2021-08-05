@@ -1,10 +1,11 @@
 import React from 'react'
-
+import "./Refused.css"
 function refuse() {
     return (
-        <div>
-            <h1>refuser car bad password</h1>
-        </div>
+        <p className="non">ENTREE INTERDITE AUX COLLABOS !!</p>
+
+       
+        
     )
 }
 
