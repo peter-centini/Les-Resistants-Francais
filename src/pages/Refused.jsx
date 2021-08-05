@@ -3,7 +3,8 @@ import React from 'react'
 function refuse() {
     return (
         <div>
-            <h1>refuser car bad password</h1>
+            <h1 className="titre"> Accé refuser car tu as rentrer le mauvais mot de passe</h1>
+            
         </div>
     )
 }

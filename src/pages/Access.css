@@ -1,6 +1,6 @@
 
 *{
-    background-color: var(--main-color);
+    /* background-color: var(--main-color); */
 }
 .form{
     display: flex;
@@ -8,20 +8,33 @@
 }
 
 .mdp{
-    background-color: darkblue;
+    /* background-color: darkblue; */
 
 }
 .submit{
+    display: flex;
     background-color: chartreuse;
 }
 .checklist{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
     background-color: rgb(184, 11, 77);
 }
 ul{
-    background-color: rgb(230, 236, 219);
+    /* background-color: rgb(230, 236, 219); */
 }
 .connection{
     background-color: deeppink;
+    height: 70px;
+    width: 100px;
+    border-radius: 15px;
+    margin-top: 23px;
+    margin-left: 130px;
+    box-shadow: 15px;
+    box-decoration-break: clone;
 }
 
 /* * {
@@ -31,7 +44,14 @@ ul{
     width: auto;
 } */
 
-
+.secretpage{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    display: flex;
+    align-self: center;
+}
 
 ul{
     margin-left: 500px;

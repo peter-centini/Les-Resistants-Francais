@@ -23,10 +23,9 @@ function Access() {
 
 
         <div className= "secretpage">
-        <div className= "bande-son"> <audio src={music}
-         controls></audio>
-        </div>
-
+            <div className= "bande-son"> <audio src={music}
+             controls></audio>
+            </div>
         
             <form onSubmit={validation}>
                 <label className="password">Password:</label>
@@ -35,26 +34,25 @@ function Access() {
                 {/* <input type="password" onChange={e => setPasswordAgain(e.target.value)}/> */}
                 <PasswordChecklist className="checklist"
 
-                    rules={["minLength","specialChar","number","capital","match"]}
+                    rules={["minLength","match"]}
                     minLength={8}
                     value={password}
                     // valueAgain={passwordAgain}
                     messages={{
                         minLength: "Mauvaise longeur ",
-                        specialChar: "il manque un caractere.",
+                        //specialChar: "il manque un caractere.",
                         // number: "",
                         // capital: "",
-                        
+                        match:"",
                     }}
-                    
                     />
-                    </div>    
+                      
                     <div className= "submit">
                     <input type="submit" className="connection"/>
 
                     </div>
-                    </form>
-                    </div>
+                 </form>
+            </div>
              
 	);
     
