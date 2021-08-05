@@ -1,6 +1,6 @@
 
 *{
-    /* background-color: var(--main-color); */
+    background-color: var(--main-color);
 }
 audio{
     
@@ -72,12 +72,5 @@ li{
     width: auto;
 } */
 
-.secretpage{
-    margin-top: 200px;
-    display: flex;
-    justify-content: center;
-    background-color: blueviolet;
-    display: flex;
-    align-self: center;
-}
+
 
