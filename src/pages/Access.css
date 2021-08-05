@@ -1,3 +1,29 @@
+
+*{
+    background-color: var(--main-color);
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+.mdp{
+    background-color: darkblue;
+
+}
+.submit{
+    background-color: chartreuse;
+}
+.checklist{
+    background-color: rgb(184, 11, 77);
+}
+ul{
+    background-color: rgb(230, 236, 219);
+}
+.connection{
+    background-color: deeppink;
+}
+
 /* * {
     background-image: url(../Image/obeir.jpg);
     background-repeat: no-repeat;
@@ -5,12 +31,7 @@
     width: auto;
 } */
 
-form, checklist{
-     text-align: center;
-     padding-top: 150px;
-     margin-left: 150px;
 
-}
 
 ul{
     margin-left: 500px;
