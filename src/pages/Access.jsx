@@ -44,20 +44,20 @@ function Access() {
                    
                     messages={{
                         minLength: "Mauvaise longeur ",
-                        specialChar: "il manque un caractere.",
+                      match:"",
+                        //specialChar: "il manque un caractere.",
                         // number: "",
                         // capital: "",
                       
                     }}
-                    
                     />
                        
                     <div className= "submit">
                     <input type="submit"/>
 
                     </div>
-                    </form>
-                    </div>
+                 </form>
+            </div>
              
 	);
     
