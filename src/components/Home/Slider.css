@@ -27,3 +27,11 @@
   margin: 0.8em 0 1rem 0;
 
 }
+
+@media screen and (max-width:600px) {
+ .carousel .slide img {
+     width : 100vw !important;
+     height : 40vh;
+     object-fit: cover;
+ }
+}

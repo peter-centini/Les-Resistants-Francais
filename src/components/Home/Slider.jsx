@@ -14,7 +14,13 @@ function Slider() {
     }, [])
 
     return (        
-        <Carousel autoPlay interval={6000} infiniteLoop thumbWidth={120} showIndicator>
+        <Carousel 
+        autoPlay 
+        interval={4000}
+        infiniteLoop thumbWidth={120} 
+        showIndicator={false}
+        showStatus={false}
+         >
             {resistance.map((resist) => (
                 <div key={resist.id}>
                     < resistance resist={resist} />
