@@ -2,39 +2,60 @@
 *{
     /* background-color: var(--main-color); */
 }
-.form{
+audio{
+    
+    padding-bottom: 80px;
+   
+    
+}
+.bande-son{
     display: flex;
     justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
 }
-
+p{
+    text-align: center;
+    font-size: 50px;
+    
+}
 .mdp{
-    /* background-color: darkblue; */
-
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-right: auto;
+}
+input{
+    background-color:var(--fourth-color);
+    padding-right: 50px;
+    padding-right: 300px;
+    margin-left: 200px;
+    
 }
 .submit{
     display: flex;
-    background-color: chartreuse;
+    justify-content: center;
+    background-color: purple;
 }
 .checklist{
-    padding-top: 100px;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    background-color: rgb(184, 11, 77);
+    background-color: rgb(182, 240, 22);
 }
 ul{
-    /* background-color: rgb(230, 236, 219); */
+    background-color: rgb(54, 160, 179);
 }
 .connection{
-    background-color: deeppink;
-    height: 70px;
-    width: 100px;
-    border-radius: 15px;
-    margin-top: 23px;
-    margin-left: 130px;
-    box-shadow: 15px;
-    box-decoration-break: clone;
+    display: flex;
+    
+    background-color: rgb(232, 236, 211);
+    height:20vh;
+    width: 20vw;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 /* * {
@@ -51,9 +72,5 @@ ul{
     background-color: blueviolet;
     display: flex;
     align-self: center;
-}
-
-ul{
-    margin-left: 500px;
 }
 

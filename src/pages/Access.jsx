@@ -20,35 +20,40 @@ function Access() {
         }
 
 	return (
-
-
         <div className= "secretpage">
-            <div className= "bande-son"> <audio src={music}
-             controls></audio>
-            </div>
-        
+        <div className= "bande-son"> <audio src={music}
+         controls></audio>
+        </div>
+         <p className= "indice">Le mot de passe correspondant résume la video en un seul mot !!</p>
+
             <form onSubmit={validation}>
+                
+                
+                <div className="mdp">
                 <label className="password">Password:</label>
+                
                 <input type="password" onChange={e => setPassword(e.target.value)}/>
+                </div>
                 {/* <label>Password Again:</label> */}
                 {/* <input type="password" onChange={e => setPasswordAgain(e.target.value)}/> */}
                 <PasswordChecklist className="checklist"
-
-                    rules={["minLength","match"]}
+                    rules={["minLength","specialChar","number","capital","match"]}
                     minLength={8}
                     value={password}
                     // valueAgain={passwordAgain}
+                   
                     messages={{
                         minLength: "Mauvaise longeur ",
+                      match:"",
                         //specialChar: "il manque un caractere.",
                         // number: "",
                         // capital: "",
-                        match:"",
+                      
                     }}
                     />
-                      
+                       
                     <div className= "submit">
-                    <input type="submit" className="connection"/>
+                    <input type="submit"/>
 
                     </div>
                  </form>
