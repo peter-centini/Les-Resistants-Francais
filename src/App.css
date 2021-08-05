@@ -1,0 +1,21 @@
+@import url("//db.onlinewebfonts.com/c/af24b182b5aba57064a3a699c70966bb?family=Typewriter2");
+
+* {
+    margin:0;
+    padding: 0;
+}
+
+:root {
+    --main-color: #1E4021;
+    --second-color: #A0AFA0;
+    --third-color: #97AFB9;
+    --fourth-color: #004057;
+    --six-font-family:'Typewriter2',cursive;
+
+}
+
+
+
+h1,h2,span,p,a {
+    font-family: var(--six-font-family);
+}
