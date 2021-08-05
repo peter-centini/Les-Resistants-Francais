@@ -1,0 +1,18 @@
+/* * {
+    background-image: url(../Image/obeir.jpg);
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+} */
+
+form, checklist{
+     text-align: center;
+     padding-top: 150px;
+     margin-left: 150px;
+
+}
+
+ul{
+    margin-left: 500px;
+}
+
