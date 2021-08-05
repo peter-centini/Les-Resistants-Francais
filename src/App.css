@@ -10,12 +10,13 @@
     --second-color: #A0AFA0;
     --third-color: #97AFB9;
     --fourth-color: #004057;
-    --six-font-family:'Typewriter2',cursive;
-
+    --six-font-familly:'Typewriter2' ;
 }
+
 
 
 
 h1,h2,span,p,a {
-    font-family: var(--six-font-family);
+    font-family: var(--six-font-familly);
 }
+
