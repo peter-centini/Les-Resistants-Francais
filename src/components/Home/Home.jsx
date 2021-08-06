@@ -22,8 +22,8 @@ function Home() {
             <Link to={{ pathname: `/Game/:id`}}>
                <div className="bloc1">Les Ennemis</div>
             </Link>
-            <Link to={{ pathname: `/detail/:id`}}>  
-               <div className="bloc2">Message</div>
+            <Link to={{ pathname: `/contact`}}>  
+               <div className="bloc2">Messages</div>
             </Link>
             <Link to={{ pathname: `/detail/:id`}}>
                <div className="bloc3">Liens</div>

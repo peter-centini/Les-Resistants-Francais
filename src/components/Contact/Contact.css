@@ -1,0 +1,62 @@
+.Contact {
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    justify-content: center;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text {
+    margin: 20px;
+    font-size: 1.5vh;
+}
+
+.contact-form {
+    font-size: 4vh;
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 10px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 1%; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
+
+#name, #lastname, #email, #request {
+    background-color: rgb(207, 202, 202);
+}
+
+#request {
+    padding: 4%;
+    color: black;
+    display: flex;
+    text-align: flex-start;
+}
+
+input {
+    padding: 2%;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+input[type=submit]:hover {
+    background-color: var(--third-color);
+}
+
+.container {
+    padding: 2%; 
+}
+
+.link-contact {
+    display: flex;
+    justify-content: center;
+}

@@ -4,9 +4,8 @@ import Home from './components/Home/Home';
 import Access from './pages/Access';
 import Refused from './pages/Refused';
 import Game from './components/Game/Game';
+import Contact from './components/Contact/Contact';
 import './App.css';
-
-
 
 function App() {
   return (
@@ -18,6 +17,7 @@ function App() {
         <Route path='/Home' component={Home} /> 
         <Route path='/Detail/:id' component={HomeDetails} />
         <Route path='/Game/:id' component={Game} />
+        <Route path='/contact' component={Contact} />
       </Switch>
     </Router>
     </div>

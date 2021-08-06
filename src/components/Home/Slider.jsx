@@ -31,7 +31,7 @@ function Slider() {
                     <img className="picture" src={resist.image} alt="" />
                     </div>
                     <div className="overlay">
-                    <Link to={{ pathname: `/detail/:id`}}>
+                    <Link to={{ pathname: `/Detail/${resist.id}`}}>
                         <h2 className="overlay_name">{resist.name}</h2>
                     </Link>
                         <p className="overlay_quote">{resist.quote}</p>
