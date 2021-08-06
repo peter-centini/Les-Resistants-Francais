@@ -1,0 +1,107 @@
+
+*{
+    background-color: var(--fourth-color);
+}
+
+.bande-son{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+    
+}
+.indice{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 120px;
+    color: cornsilk;
+   
+    
+}
+.mdp{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    font-family: var(--six-font-familly);
+    color: cornsilk;
+    
+    
+}
+.pass{
+
+    background-color:var(--third-color);
+    padding-left: 100px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: center;
+    
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    background-color:var(--first-color);
+}
+
+li{
+    
+   display: flex;
+   align-self: center;
+    font-family: var(--six-font-familly);
+}
+
+.sub{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    line-height: 26px;
+    padding: 12px;
+    border-radius: 8px;
+    font-family: var(--six-font-familly);
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background-image: linear-gradient(to right, rgb(93, 140, 167) 0%, rgb(57, 95, 90) 50%, rgb(88, 133, 112) 100%);
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(115, 127, 150);
+    display: inline-block;
+    margin-top: 150px;
+}
+    
+.myButton:hover {
+background: var(--second-color); }
+.myButton:active {
+background: var(--third-color); }
+
+.checklist{
+display: flex;
+flex-direction: column-reverse;
+color: cornsilk;
+
+
+    
+    
+    
+    
+    
+}
+    /* padding: 15px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: var(--fourth-color);
+    margin-top: 150px; */
+
+/* * {
+    background-image: url(../Image/obeir.jpg);
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+} */
+
+
+
