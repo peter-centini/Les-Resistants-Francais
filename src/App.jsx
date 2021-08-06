@@ -2,8 +2,6 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import HomeDetails from './components/Home/HomeDetails';
 import Home from './components/Home/Home';
 import './App.css';
-//import Access from './pages/Access';
-//import Refused from './pages/Refused';
 
 
 
