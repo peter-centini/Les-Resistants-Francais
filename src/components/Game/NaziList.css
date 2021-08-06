@@ -1,6 +1,10 @@
+.Container {
+    height: 100vh;
+}
 .NaziCard {
     display: flex;
     height: 50%;
+    max-width: fit-content;
     display: flex;
     justify-content: space-evenly;
 }

@@ -9,6 +9,7 @@ function Game(props) {
     const [resistantImg, setResistantImg] = useState();
     const [resistantLife, setResistantLife] = useState();
     const resistantId = props.match.params.id
+    
 
     useEffect(() => {
         axios
@@ -30,7 +31,6 @@ function Game(props) {
                 <div className="Stats">
                 <span className="ResistantName">{resistantName}</span>
                 <span className="ResistantLife">Life : {resistantLife}</span>
-                
                 <div className ="Buttons">
                 <Link to={{pathname: '/0'}}style={{ textDecoration: 'none' }}><button className="ResistantBtn1">Perso 1</button></Link>
                 <Link to={{pathname: '/1'}}style={{ textDecoration: 'none' }}><button className="ResistantBtn2">Perso 2</button></Link>
@@ -38,8 +38,7 @@ function Game(props) {
                 </div>
                 </div>
                 <div className="Fight">
-                <button className="Attack">Attack</button>
-                <button className="Grenade">Grenade</button>
+            
                 </div>
                 <div className="RandomNazi">
                     <NaziList />

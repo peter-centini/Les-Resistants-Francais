@@ -33,22 +33,33 @@ function NaziList() {
             dynamites: 2
          }
     ]
-
     const [randomNazi, setRandomNazi] = useState(0);
     const generateRandomNazi = (e) => {
         const naziL = nazis.length
         setRandomNazi(Math.floor(Math.random() * naziL))};
+    const [enemyLife, setEnemyLife] = useState(nazis[randomNazi].life)
+    const [winMessage, setWinMessage] = useState("");
+    
+    const attack1 = () => {
+        setEnemyLife(enemyLife-5)
+    if (enemyLife <= 0 ) {
+        setWinMessage ("Nazi exterminé!")
+    }
+    };
+    
     return (
-        <div>
+        <div className="Container">
         <div className="NaziCard">
             <div className="NaziStats">
             <span>{nazis[randomNazi].name}</span>
-            <span>Life : {nazis[randomNazi].life}</span>
+            <span>Life : {enemyLife}</span>
+            <span>{winMessage}</span>
             </div>
             <img className="NaziImg" src={nazis[randomNazi].image} />
             
         </div>
         <button className="NaziBtn" onClick={generateRandomNazi}>Choisir</button>
+        <button  onClick = {attack1}>Attack</button>
         </div>
     )
 }
