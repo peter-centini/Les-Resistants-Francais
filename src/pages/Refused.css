@@ -1,4 +1,18 @@
-p{
-    margin-top: 150px;
-  font-size: 100px;
+p {
+    margin-top: 27px;
+    font-size: 25px;
+}
+h1{
+  font-size: auto;
+  text-align: center;
+  margin-top: 375px;
+}
+.backhome{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: auto;
+  text-decoration: none;
+  color: black;
+  
 }

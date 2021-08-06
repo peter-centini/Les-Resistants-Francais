@@ -1,6 +1,6 @@
 
 *{
-    background-color: var(--main-color);
+    background-color: var(--fourth-color);
 }
 audio{
     
@@ -24,7 +24,7 @@ p{
 .mdp{
     display: flex;
     justify-content: center;
-    font-size: 60px;
+    font-size: 30px;
     margin-top: 30px;
     margin-left: 300px;
     font-family: var(--six-font-familly);
@@ -55,7 +55,6 @@ li{
 }
 .connection{
     display: flex;
-    
     background-color: rgb(199, 211, 140);
     height:20vh;
     width: 20vw;
@@ -71,6 +70,10 @@ li{
     height: auto;
     width: auto;
 } */
-
+.checklist{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+}
 
 
