@@ -1,6 +1,8 @@
 
-*{
+.secretpage {
     background-color: var(--fourth-color);
+    padding-top: 10%;
+    padding-bottom: 50%;
 }
 
 .bande-son{

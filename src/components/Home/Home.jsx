@@ -4,7 +4,7 @@ import './Home.css';
 
 function Home() {
     return (
-        <div>
+        <div className="Home">
             <h1 className="Title">
             Nos résistants
             </h1>
