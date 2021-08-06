@@ -1,9 +1,9 @@
   .overlay_quote {
       display: flex;
       justify-content: center;
-    width: 343px;
+    width: 373px;
     position: absolute;
-    top:60%;
+    top:61%;
     transform: translateY(-50);
     padding: 1rem 3rem;
     text-align: left;
@@ -31,7 +31,7 @@
 }
 
 .photo {
-    width: 62vh;
+    width: 58vh;
     height: 70vh;
 }
 

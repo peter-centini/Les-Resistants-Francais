@@ -17,6 +17,11 @@ function Home() {
                 <p className="par3">Moi, général de Gaulle, j'entreprends ici, en Angleterre, cette tâche nationale. J'invite tous les militaires français des armées de terre, de mer et de l'air. J'invite les chefs, les soldats, les marins, les aviateurs des forces françaises de terre, de mer, de l'air, où qu'ils se trouvent actuellement, à se mettre en rapport avec moi. J'invite tous les Français qui veulent rester libres à m'écouter et à me suivre. Vive la France, libre, dans l'honneur et dans l'indépendance.</p>
                 </div>
             </div>
+            <div className="link-to">
+               <div className="bloc1">Les Ennemis</div>
+               <div className="bloc2">Message</div>
+               <div className="bloc3">Liens</div>
+            </div>
         </div>
     )
 }
