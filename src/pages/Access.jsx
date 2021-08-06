@@ -12,7 +12,7 @@ function Access() {
 	    // const [passwordAgain, setPasswordAgain] = useState("Peter1el")
         let history = useHistory();
         const validation = () => { 
-            if(password == mypassword){
+            if(password === mypassword){
                 history.push("/");
             }else{
                 history.push("/refused");

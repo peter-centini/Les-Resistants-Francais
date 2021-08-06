@@ -1,6 +1,7 @@
 p {
     margin-top: 27px;
     font-size: 25px;
+    text-align: center;
 }
 h1{
   font-size: auto;
@@ -14,5 +15,8 @@ h1{
   font-size: auto;
   text-decoration: none;
   color: black;
-  
+  margin-top: 70px;
+}
+.non{
+
 }
