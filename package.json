@@ -12,6 +12,7 @@
     "react": "^17.0.2",
     "react-audio-player": "^0.17.0",
     "react-dom": "^17.0.2",
+    "react-password-checklist": "^1.2.1",
     "react-responsive-carousel": "^3.2.20",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
