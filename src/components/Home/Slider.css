@@ -1,53 +1,43 @@
-  .overlay_quote{
-    width: 35vh;
+  .overlay_quote {
+      display: flex;
+      justify-content: center;
+    width: 343px;
     position: absolute;
-    top:61%;
+    top:60%;
     transform: translateY(-50);
-    padding: 1rem 1.1rem;
+    padding: 1rem 3rem;
     text-align: left;
     background: rgba(0, 0, 0.6);
     color: #FFFF;
-    font-size:60%;
-}
-
-.overlay_name {
-    margin-top: auto;
+    font-size:80%;
 }
 
 .overlay {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 0.6%;
-}
-
-.carousel .thumbs {
-    display: flex;
-    justify-content: center;
+    margin: 0.5%;
 }
 
 .carousel .thumb {
-    margin: 1px;
     cursor: pointer;
 }
 
 .carousel .overlay_name {
   margin: 0.8em 0 5rem ;
-
 }
+
 .picture {
-    max-width: 35vh;
-    margin: 3%;
+    max-width: 45vh;
 }
 
 .photo {
-    width: 186.5vh;
-    height: 60vh;
+    width: 62vh;
+    height: 70vh;
 }
 
 .Title {
     margin-top: 1%;
-    font-size: 160%;
+    font-size: 200%;
 }
 
 @media screen and (max-width:600px) {
