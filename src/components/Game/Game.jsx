@@ -32,7 +32,7 @@ function Game(props) {
                 <span className="ResistantName">{resistantName}</span>
                 <span className="ResistantLife">Life : {resistantLife}</span>
                 <div className ="Buttons">
-                <Link to={{pathname: `/${resistantId}`}}style={{ textDecoration: 'none' }}><button className="ResistantBtn1">Perso 1</button></Link>
+                <Link to={{pathname: '/0'}}style={{ textDecoration: 'none' }}><button className="ResistantBtn1">Perso 1</button></Link>
                 <Link to={{pathname: '/1'}}style={{ textDecoration: 'none' }}><button className="ResistantBtn2">Perso 2</button></Link>
                 <Link to={{pathname: '/2'}}style={{ textDecoration: 'none' }}><button className="ResistantBtn3">Perso 3</button></Link>
                 </div>
