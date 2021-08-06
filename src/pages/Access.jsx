@@ -7,7 +7,7 @@ import"./Access.css"
 
 
 function Access() {
-        const mypassword="Peter"
+        const mypassword="debarquement"
 	    const [password, setPassword] = useState("")
 	    // const [passwordAgain, setPasswordAgain] = useState("Peter1el")
         let history = useHistory();
@@ -24,36 +24,30 @@ function Access() {
         <div className= "bande-son"> <audio src={music}
          controls></audio>
         </div>
-         <p className= "indice">Le mot de passe correspond au résumé la bande sonore en un seul mot !!</p>
+         <p className= "indice">Le mot de passe correspond au résumé de la bande sonore en un seul mot !</p>
 
             <form onSubmit={validation}>
                 
-                
                 <div className="mdp">
-                <label className="password">Password:</label>
-                
-                <input type="password" onChange={e => setPassword(e.target.value)}/>
+                <label className="password">Mot de passe:</label>
+                <input className="pass" type="password" onChange={e => setPassword(e.target.value)}/>
                 </div>
                 {/* <label>Password Again:</label> */}
                 {/* <input type="password" onChange={e => setPasswordAgain(e.target.value)}/> */}
                 <PasswordChecklist className="checklist"
-                    rules={["minLength","specialChar","number","capital","match"]}
-                    minLength={8}
+                    rules={["minLength","match"]}
+                    minLength={12}
                     value={password}
-                    // valueAgain={passwordAgain}
-                   
+                    valueAgain={mypassword}
                     messages={{
-                        minLength: "Mauvaise longeur ",
-                        specialChar: "il manque un caractere.",
+                        minLength: "Le nombre de lettres est bon !",
+                        match: "Le mot de passe est conforme !",
                         // number: "",
                         // capital: "",
-                      
                     }}
-                    
                     />
-                       
                     <div className= "submit">
-                    <input type="submit"/>
+                    <input className="sub" type="submit"/>
 
                     </div>
                     </form>

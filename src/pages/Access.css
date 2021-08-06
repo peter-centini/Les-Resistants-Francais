@@ -1,44 +1,41 @@
 
 *{
-    background-color: var(--main-color);
+    background-color: var(--fourth-color);
 }
-audio{
-    
-    padding-bottom: 80px;
-   
-    
-}
+
 .bande-son{
     display: flex;
     justify-content: center;
     margin-top: 40px;
-    margin-bottom: 40px;
+    
     
 }
-p{
+.indice{
     text-align: center;
-    font-size: 50px;
-    margin-bottom: 30px;
+    font-size: 35px;
+    margin-bottom: 120px;
+    color: cornsilk;
+   
     
 }
 .mdp{
     display: flex;
     justify-content: center;
-    font-size: 60px;
+    font-size: 35px;
     margin-top: 30px;
-    margin-left: 300px;
+    margin-bottom: 80px;
     font-family: var(--six-font-familly);
+    color: cornsilk;
     
     
 }
-input{
-    background-color:var(--second-color);
+.pass{
+
+    background-color:var(--third-color);
     padding-left: 100px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
     padding-right: 100px;
-    margin-left:auto;
-    margin-right: auto;
     display: flex;
     justify-content: center;
     
@@ -51,19 +48,53 @@ input{
 
 li{
     
+   display: flex;
+   align-self: center;
     font-family: var(--six-font-familly);
 }
-.connection{
+
+.sub{
     display: flex;
-    
-    background-color: rgb(199, 211, 140);
-    height:20vh;
-    width: 20vw;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    line-height: 26px;
+    padding: 12px;
+    border-radius: 8px;
+    font-family: var(--six-font-familly);
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background-image: linear-gradient(to right, rgb(93, 140, 167) 0%, rgb(57, 95, 90) 50%, rgb(88, 133, 112) 100%);
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(115, 127, 150);
+    display: inline-block;
     margin-top: 150px;
-    margin-left: auto;
-    margin-right: auto;
+}
+    
+.myButton:hover {
+background: var(--second-color); }
+.myButton:active {
+background: var(--third-color); }
+
+.checklist{
+display: flex;
+flex-direction: column-reverse;
+color: cornsilk;
+
+
+    
+    
+    
+    
     
 }
+    /* padding: 15px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: var(--fourth-color);
+    margin-top: 150px; */
 
 /* * {
     background-image: url(../Image/obeir.jpg);
