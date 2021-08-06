@@ -16,7 +16,7 @@ function App() {
         <Route path='/refused' component={Refused} />
         <Route path='/Home' component={Home} /> 
         <Route path='/Detail/:id' component={HomeDetails} />
-        <Route path='/Game/:id' component={Game} />
+        <Route path='/:id' component={Game} />
         <Route path='/contact' component={Contact} />
       </Switch>
     </Router>

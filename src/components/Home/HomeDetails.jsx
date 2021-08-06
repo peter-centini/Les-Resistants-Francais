@@ -21,6 +21,9 @@ function HomeDetails(props) {
                 <div className='detail-content'>
                     <h2 className='h2-css'>{detail.name}</h2>
                     <p className='p-css'>Description : {detail.description}</p>
+                    <p className='quote'>Citation : {detail.quote} 
+
+                    </p>
                 </div>
             </div>
             <Link className='link-detail' to={{pathname:'/Home'}}>Retour à la page accueil</Link>
