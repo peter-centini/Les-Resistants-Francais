@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom'
 function refuse() {
     return (
  
-        <div>
-         <h1 className="titre"> Accé refuser car tu as rentrer le mauvais mot de passe</h1>
+        <div className="Refuse">
+         <h1 className="titre"> Accès refusé car tu as rentré le mauvais mot de passe</h1>
           <p className="non">ENTREE INTERDITE AUX COLLABOS !!</p>
-            <Link className="backhome" to={{pathname: '/'}}>retour vers Page Acceuil !!!</Link>     
+            <Link className="backhome" to={{pathname: '/'}}>Retour vers page accueil !!!</Link>     
        </div>
     )
 }

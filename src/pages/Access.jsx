@@ -13,7 +13,7 @@ function Access() {
         let history = useHistory();
         const validation = () => { 
             if(password === mypassword){
-                history.push("/");
+                history.push("/Home");
             }else{
                 history.push("/refused");
             }

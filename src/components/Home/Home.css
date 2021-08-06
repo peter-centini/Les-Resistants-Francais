@@ -1,5 +1,7 @@
 .Home {
     background-color: var(--third-color);
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .Title {
@@ -52,6 +54,3 @@
     height: 150px;
     align-self: center;
 }
-
-
-
