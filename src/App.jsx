@@ -1,17 +1,25 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Game from './components/Game/Game';
+import HomeDetails from './components/Home/HomeDetails';
 import Home from './components/Home/Home';
+import Access from './pages/Access';
+import Refused from './pages/Refused';
+import Game from './components/Game/Game';
 import './App.css';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <Switch>
-          <Route exact path='/'component={Home} />
-          <Route path='/:id' component={Game} />
-        </Switch>
-      </Router>
+    <div className="App">  
+    <Router>
+      <Switch>
+        <Route exact path='/' component={Access}/>
+        <Route path='/refused' component={Refused} />
+        <Route path='/Home' component={Home} /> 
+        <Route path='/Detail/:id' component={HomeDetails} />
+        <Route path='/:id' component={Game} />
+      </Switch>
+    </Router>
     </div>
   );
 }

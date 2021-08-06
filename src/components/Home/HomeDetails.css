@@ -1,0 +1,46 @@
+.ResistDetails {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--third-color);
+}
+
+.detail-card {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    margin: 50px;
+    border: solid 3px var(--main-color);
+    background-color: var(--fourth-color);
+    height: auto;
+    width: 30vw;
+
+}
+
+.detail-content, .image-detail {
+    width: 100%;
+    padding-bottom: 20px;
+    background-color: var(--fourth-color);
+}
+
+.h2-css, .detail-content {
+    color: var(--third-color);
+    background-color: var(--fourth-color);
+}
+
+.h2-css {
+    padding-bottom: 10px;
+}
+
+.p-css {
+    padding: 10px;
+    color: var(--third-color);
+    background-color: var(--fourth-color);
+}
+
+.link-detail {
+    color: var(--fourth-color);
+    padding-bottom: 50vw;
+}

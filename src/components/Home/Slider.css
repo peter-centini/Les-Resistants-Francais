@@ -1,0 +1,49 @@
+  .overlay_quote {
+      display: flex;
+      justify-content: center;
+    width: 373px;
+    position: absolute;
+    top:61%;
+    transform: translateY(-50);
+    padding: 1rem 3rem;
+    text-align: left;
+    background: rgba(0, 0, 0.6);
+    color: #FFFF;
+    font-size:80%;
+}
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    margin: 0.5%;
+}
+
+.carousel .thumb {
+    cursor: pointer;
+}
+
+.carousel .overlay_name {
+  margin: 0.8em 0 5rem ;
+}
+
+.picture {
+    max-width: 45vh;
+}
+
+.photo {
+    width: 58vh;
+    height: 70vh;
+}
+
+.Title {
+    margin-top: 1%;
+    font-size: 200%;
+}
+
+@media screen and (max-width:600px) {
+ .carousel .slide img {
+     width : 100vw !important;
+     height : 40vh;
+     object-fit: cover;
+ }
+}
