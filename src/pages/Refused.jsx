@@ -10,7 +10,6 @@ function refuse() {
           <p className="non">ENTREE INTERDITE AUX COLLABOS !!</p>
             <Link className="backhome" to={{pathname: '/'}}>retour vers Page Acceuil !!!</Link>     
        </div>
-
     )
 }
 
