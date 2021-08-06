@@ -1,11 +1,13 @@
 import React from 'react'
+import './HomeList.css';
 
 function HomeList() {
+    
     return (
-        <div>
+        <div className="HomeList">
             
         </div>
     )
 }
 
-export default HomeList
+export default HomeList;

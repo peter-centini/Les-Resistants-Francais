@@ -1,5 +1,6 @@
+const resistants =
 [
-  {
+{
     "id": 0,
     "name": "francois Gaalon",
     "image": "https://zupimages.net/up/21/31/9tpp.jpg",
@@ -37,7 +38,7 @@
   {
     "id": 5,
     "name": "Marie Madeleine Fourcade",
-    "image": "https://zupimages.net/viewer.php?id=21/31/ffu1.jpeg",
+    "image": "https://zupimages.net/up/21/31/ffu1.jpeg",
     "description": "Marie-Madeleine Fourcade, née le 8 novembre 1909 à Marseille et morte le 20 juillet 1989 à Paris, est une résistante française.",
     "quote": "Elle succéda comme chef du réseau de résistance de droite Alliance à son fondateur Georges Loustaunau-Lacau"
   }
