@@ -1,6 +1,8 @@
 
-*{
+.secretpage {
     background-color: var(--fourth-color);
+    padding-top: 10%;
+    padding-bottom: 50%;
 }
 
 .bande-son{
@@ -15,8 +17,6 @@
     font-size: 35px;
     margin-top: 100px;
     color: cornsilk;
-   
-    
 }
 .mdp{
     display: flex;

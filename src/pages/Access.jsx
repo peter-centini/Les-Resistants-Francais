@@ -2,7 +2,6 @@ import React, {useState} from "react"
 import PasswordChecklist from "react-password-checklist"
 import {useHistory} from 'react-router-dom'
 import music from "./annonce.ogg"
-import { Link } from 'react-router-dom';
 import"./Access.css"
 
 function Access() {
